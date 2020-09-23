@@ -67,7 +67,7 @@ export default class Todo extends LightningElement {
         })
         .catch(error => console.log(error))
         .finally(() => this.processing = false);
-        // * Set processing variable to false after receiving response from salesforce
+        
     }
 
     /*
